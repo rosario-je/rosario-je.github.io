@@ -16,25 +16,14 @@ body{
 }
 
 
-
-
-/* <header class="container-fluid text-center" style="background: lightblue;"> */
-#about{
-    text-align: center;
-    padding-top: 25px;
-}
-col{
-    border: solid red;
+.about-img{
+    background-image: url(/rosario-je.github.io/images/building.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cov;
+    height: 100px;
 }
 
-#about p{
-    color: white;
-}
-
-#about p{
-    padding: 25px;
-    margin-bottom: 0%;
-}
 
 
 
@@ -45,22 +34,9 @@ col{
 
 
 
-.projects h2{
-    text-align: center;
-}
-
-
 
 /* --------------Software-------------- */
 
-.software{
-    background: #0F1331;
-}
-
-.software img{
-    width: 50%;
-    height:auto;
-}
 
  /* --------------CONTACT INFO / SOCIAL MEDIA-------------- */
 
