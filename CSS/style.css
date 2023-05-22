@@ -5,24 +5,47 @@ Background: 1B214B
 Nav Bar color: 12173F
 Software color: 0F1331
 
+Fonts:
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Prompt', sans-serif;
+
+
+
 */
 
 /* Global Atributes */
-
-/* --------------About-------------- */
 body{
     background: #1B214B;
     color: white;
 }
 
+main{
+    padding: 10px 100px 10px 100px;
+}
+
+
+
+/* --------------About-------------- */
 
 .about-img{
     background-image: url(/rosario-je.github.io/images/building.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cov;
-    height: 100px;
+    background-size: cover;
+    height: 200px;
 }
+
+.about h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 50px;
+ }
+
+ .about p{
+
+
+    font-family: 'Libre Franklin', sans-serif;
+ }
 
 
 
@@ -32,11 +55,31 @@ body{
 
  /* --------------Projects-------------- */
 
+.projects h2{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
 
 
+
+.projects p{
+    font-family: 'Libre Franklin', sans-serif;
+} 
 
 /* --------------Software-------------- */
 
+.software{
+    
+    display: table-cell;
+    display: flex;
+    padding: 60px 0px 60px 0px;
+    width: 500px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+}
 
  /* --------------CONTACT INFO / SOCIAL MEDIA-------------- */
 
