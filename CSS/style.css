@@ -11,79 +11,90 @@ font-family: 'Noto Sans', sans-serif;
 font-family: 'Prompt', sans-serif;
 
 
+CALCULATING RESPONSIVE FONT 
+body {
+  font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+}
+
 
 */
 
 /* Global Atributes */
 body{
-    background: #1B214B;
-    color: white;
-}
 
-main{
-    padding: 10px 100px 10px 100px;
 }
-
 
 
 /* --------------About-------------- */
 
 .about-img{
-    background-image: url(/rosario-je.github.io/images/building.jpg);
+    /* background-image: url(/rosario-je.github.io/images/building.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 200px; */
 }
 
 .about h2{
     font-family: 'Noto Sans', sans-serif;
-    font-size: 50px;
+    font-size: calc(30px + (70 - 30) * ((100vw - 330px) / (2070 - 330)));
  }
 
  .about p{
-
-
     font-family: 'Libre Franklin', sans-serif;
+    font-size: calc(15px + (20 - 15) * ((100vw - 330px) / (2070 - 330)));
  }
 
 
+/* font
+paragraph
+min: 15px 
+max: 25px 
 
+title
+min: 30px
+max: 70px
 
-
-
+projects
+min: 20px
+*/
 
  /* --------------Projects-------------- */
 
-.projects h2{
-    padding-top: 20px;
-    padding-bottom: 5px;
+.projects-page h2{
+  font-size: calc(20px + (30 - 20) * ((100vw - 330px) / (2070 - 330)));
+  font-weight: 700;
 }
 
 
 
-.projects p{
-    font-family: 'Libre Franklin', sans-serif;
-} 
 
 /* --------------Software-------------- */
 
-.software{
-    
-    display: table-cell;
-    display: flex;
-    padding: 60px 0px 60px 0px;
-    width: 500px; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: auto;
+.software-list{
+    background-color: #BCBDC7;
 }
+
+.software-list img{
+    max-width: 45%;
+    height: auto;
+} 
+
 
  /* --------------CONTACT INFO / SOCIAL MEDIA-------------- */
 
 
 
 
- 
+
+  /* --------------COPYRIGHT INFO-------------- */
+
+
+  .legal_footer{
+    background-color: #BCBDC7;
+  }
+
+  .legal_footer p{
+    font-size: calc(10px + (15 - 10) * ((100vw - 330px) / (2070 - 330)));
+
+  }
