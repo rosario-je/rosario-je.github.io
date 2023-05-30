@@ -17,22 +17,51 @@ body {
 }
 
 
+
 */
 
 /* Global Atributes */
-body{
 
+
+
+
+
+/* --------------Nav Bar-------------- */
+
+.navbar{
+  box-shadow: 0px 2px 20px  black;
+  background-color: #1A1A1A;
 }
+
+.nav.navbar-nav.navbar-right li a {
+    color: blue;
+}
+
+.nav-item{
+  padding-left: 50px;
+}
+
+
+.navbar-brand{
+  font-weight: 700;
+}
+
+.animate__animated.animate__pulse{
+  --animate-duration: 2s;
+  --animation: bounce;
+}
+
+
+
+
 
 
 /* --------------About-------------- */
 
-.about-img{
-    /* background-image: url(/rosario-je.github.io/images/building.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px; */
+.about img{
+    box-shadow: 0px 0px 25px grey;
+    object-fit: cover;
+    object-position: center;
 }
 
 .about h2{
@@ -57,6 +86,7 @@ max: 70px
 
 projects
 min: 20px
+max: 30px
 */
 
  /* --------------Projects-------------- */
@@ -65,6 +95,45 @@ min: 20px
   font-size: calc(20px + (30 - 20) * ((100vw - 330px) / (2070 - 330)));
   font-weight: 700;
 }
+
+.project-item{
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px  lightgrey;
+}
+/* 
+
+box shadow:
+1-horizontal
+2-vertical
+3-blur
+4-spread radious
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* --------------Modal Window-------------- */
+
+#gallery-modal .modal-img{
+  width: 100%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -81,7 +150,29 @@ min: 20px
 } 
 
 
+
+
+
+
+
+
+
  /* --------------CONTACT INFO / SOCIAL MEDIA-------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

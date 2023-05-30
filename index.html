@@ -14,41 +14,52 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Noto+Sans:wght@700&family=Prompt:wght@200&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 
 <!-- ----------------------NAV BAR---------------------- -->
 
-<nav class="navbar bg-dark sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+<nav class="navbar navbar-dark sticky-top navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand px-4 px-sm-3 px-md-4 px-lg-5 mx-sm-1 mx-md-4 mx-lg-5" href="#">JOSE</a>
+    <a id="navbar-brand"
+      class="navbar-brand animate__animated animate__pulse px-4 px-sm-3 px-md-4 px-lg-5 mx-sm-1 mx-md-4 mx-lg-5"
+      href="logo">JOSE</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav ms-auto pe-5 me-5">
+      <ul class="navbar-nav ms-auto pe-0 me-0 pe-lg-5 me-lg-5">
         <li class="nav-item">
-          <a class="nav-link text-end active" aria-current="page" href="#">ABOUT</a>
+          <a class="nav-link text-end active" aria-current="page" href="1">ABOUT</a>
         </li>
         <li class="nav-item text-end">
-          <a class="nav-link" href="#">PROJECTS</a>
+          <a class="nav-link" href="2">PROJECTS</a>
         </li>
         <li class="nav-item text-end">
-          <a class="nav-link" href="#">CONTACT</a>
+          <a class="nav-link" href="3">CONTACT</a>
         </li>
     </div>
   </div>
 </nav>
+
+
+<!-- 
+data-bs-theme="dark"
+bg-dark
+bg-body-tertiary
+ -->
 <!-- ----------------------ABOUT---------------------- -->
 
 <body>
   <main>
     <section class="about">
       <div class="row px-4 px-sm-3 px-md-4 px-lg-5 mx-sm-1 mx-md-4 mx-lg-5">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-12 col-lg-6">
           <div class="row">
-            <h2 class="text-center text-sm-center text-md-start text-lg-start pt-3 pt-sm-1 pt-md-3 pt-lg-4">Architectural Technologist</h2>
+            <h2 class="text-center text-sm-center text-md-center text-lg-start pt-3 pt-sm-1 pt-md-3 pt-lg-4">
+              Architectural Technologist</h2>
           </div>
           <div class="row">
             <p class="text-center text-sm-center text-md-start text-lg-start">Lorem ipsum dolor sit amet, consectetur
@@ -62,11 +73,16 @@
               Unde distinctio vitae suscipit possimus repellat.</p>
           </div>
         </div>
-        <div class="text-center col-12 col-sm-12 col-md-6 about-img d-flex align-content-center justify-content-center";>
-          <img src="/rosario-je.github.io/images/building.jpg" class="img-fluid pt-3 pt-sm-1 pt-md-3 pt-lg-4">
+        <div
+          class="pt-lg-5 text-center col-12 col-sm-12 col-md-12 col-lg-6 about-img d-flex align-content-center justify-content-center"
+          ;>
+          <img src="/rosario-je.github.io/images/about-section-render.jpg" class="img-fluid">
         </div>
       </div>
     </section>
+
+
+
 
 
     <!-- ----------------------PROJECTS---------------------- -->
@@ -81,32 +97,33 @@
       <div>
         <div class="row text-center px-4 px-sm-3 px-md-4 px-lg-5 mx-sm-1 mx-md-4 mx-lg-5">
           <div class="col-sm-6 col-md-6 col-lg-4 py-sm-3">
-            <img src="/rosario-je.github.io/images/521071.jpg" class="container-fluid object-fit-fill border rounded-3">
+            <img src="/rosario-je.github.io/images/project 1.jpg" class="project-item container-fluid object-fit-fill"
+              type="button">
             <p>Project One</p>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 py-sm-3">
-            <img src="/rosario-je.github.io/images/521071.jpg"
-              class="container-fluid object-fit-cover border rounded-3">
+          <div class="col-sm-6 col-md-6 col-lg-4 py-sm-3 ">
+            <img src="/rosario-je.github.io/images/project 2.jpg" class="project-item container-fluid object-fit-cover"
+              type="button">
             <p>Project Two</p>
           </div>
           <div class="col-sm-6 col-md-6 col-lg-4 py-sm-3">
-            <img src="/rosario-je.github.io/images/521071.jpg"
-              class="container-fluid object-fit-cover border rounded-3">
+            <img src="/rosario-je.github.io/images/project 3.jpg" class="project-item container-fluid object-fit-cover"
+              type="button">
             <p>Project Three</p>
           </div>
           <div class="col-sm-6 col-md-6 col-lg-4 py-sm-3">
-            <img src="/rosario-je.github.io/images/521071.jpg"
-              class="container-fluid object-fit-cover border rounded-3">
+            <img src="/rosario-je.github.io/images/project 4.jpg" class="project-item container-fluid object-fit-cover"
+              type="button">
             <p>Project Four</p>
           </div>
           <div class="col-sm-6 col-md-6 col-lg-4 py-sm-3">
-            <img src="/rosario-je.github.io/images/521071.jpg"
-              class="container-fluid object-fit-cover border rounded-3">
+            <img src="/rosario-je.github.io/images/project 5.jpg" class="project-item container-fluid object-fit-cover"
+              type="button">
             <p>Project Five</p>
           </div>
           <div class="col-sm-6 col-md-6 col-lg-4 py-sm-3">
-            <img src="//rosario-je.github.io/images/521071.jpg"
-              class="container-fluid object-fit-cover border rounded-3">
+            <img src="//rosario-je.github.io/images/521071.jpg" class="project-item container-fluid object-fit-cover"
+              type="button">
             <p>Project Six</p>
           </div>
         </div>
@@ -114,13 +131,63 @@
     </section>
 
 
+    <!-- ----------------------MODAL WINDOW---------------------- -->
 
+
+    <!-- Modal -->
+    <section class="modalWindow">
+      <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row text-center">
+                  <div class="col">
+                    <p>test</p>
+                  </div>
+                  <div class="col">
+                    <p>test</p>
+                  </div>
+                  <div class="col">
+                    <p>test</p>
+                  </div>
+                  <div class="col">
+                    <p>test</p>
+                  </div>
+                  <div class="col">
+                    <p>test</p>
+                  </div>
+                  <div class="col">
+                    <p>test</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <img src="/rosario-je.github.io/images/521071.jpg" class="modal-img img-fluid" alt="modal img">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, ducimus. Adipisci, facere ullam repudiandae laudantium asperiores magni suscipit. A quas tempora deserunt exercitationem qui commodi corrupti culpa laboriosam quo corporis cumque, delectus error minima enim! Totam in nihil incidunt dicta consequatur ea voluptas ipsum mollitia dolor. A consectetur non vitae.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ----------------------SOFTWARE---------------------- -->
 
 
-    <section class="software-list container-fluid text-center">
-      <div class="row p-2 px-sm-3 px-md-4 px-lg-5 py-sm-3 py-md-4 py-lg-5">
+    <section class="software-list text-center">
+      <div class="row px-2 py-3 px-sm-1 px-md-3 px-lg-5 py-sm-3 py-md-4 py-lg-5">
         <div class="col-2 col-sm-2 col-md-2 col-lg-2">
           <img src="/rosario-je.github.io/images/autocad.jpg" class="img-fluid">
         </div>
@@ -170,7 +237,7 @@
               d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
           </svg>
         </div>
-        <div class="col text-center text-sm-start text-md-start text-lg-start">
+        <div class="col text-sm-start">
           <p>josenxs12@gmail.com</p>
         </div>
       </div>
@@ -189,6 +256,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
+  <script src="/rosario-je.github.io/main.js"></script>
 </body>
 
 </html>
