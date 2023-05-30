@@ -23,7 +23,9 @@ body {
 /* Global Atributes */
 
 
-
+body{
+  background-color: whitre;
+}
 
 
 /* --------------Nav Bar-------------- */
