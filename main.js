@@ -1,3 +1,31 @@
+
+// ---------------------------Blur effect JS---------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ---------------------------MODAL WINDOW JS---------------------------
 
 // ---------------------------MODAL WINDOW #1---------------------------
@@ -22,6 +50,12 @@ document.addEventListener("DOMContentLoaded", function () {
   modal1.addEventListener("hidden.bs.modal", function () {
     mainImage1.src = "/images/project 1/project 1.jpg"; // Update with the path to your main image for the first modal
   });
+  
+
+
+
+
+
 
   // ---------------------------MODAL WINDOW #2---------------------------
 
