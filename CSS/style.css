@@ -53,12 +53,26 @@ body{
   --animation: bounce;
 }
 
+#about_section{
+  width: 100%;
+  height: auto;
+}
 
+#projects-page{
+  width: 100%;
+  height: auto;
+}
+
+#contact_page{
+  width: 100%;
+  height: auto;
+}
 
 
 
 
 /* --------------About-------------- */
+
 
 .about img{
     box-shadow: 0px 0px 25px grey;
