@@ -22,74 +22,66 @@ body {
 
 /* Global Atributes */
 
-
 .blur-background {
   filter: blur(20px); /* Adjust the blur amount as needed */
 }
 
-
 /* --------------Nav Bar-------------- */
 
-.navbar{
-  box-shadow: 0px 2px 20px  black;
-  background-color: #1A1A1A;
+.navbar {
+  box-shadow: 0px 2px 20px black;
+  background-color: #1a1a1a;
 }
 
 .nav.navbar-nav.navbar-right li a {
-    color: blue;
+  color: blue;
 }
 
-.nav-item{
+.nav-item {
   padding-left: 50px;
 }
 
-
-.navbar-brand{
+.navbar-brand {
   font-weight: 700;
 }
 
-.animate__animated.animate__pulse{
+.animate__animated.animate__pulse {
   --animate-duration: 2s;
   --animation: bounce;
 }
 
-#about_section{
+#about_section {
   width: 100%;
   height: auto;
 }
 
-#projects-page{
+#projects-page {
   width: 100%;
   height: auto;
 }
 
-#contact_page{
+#contact_page {
   width: 100%;
   height: auto;
 }
-
-
-
 
 /* --------------About-------------- */
 
-
-#about_section img{
-    box-shadow: 0px 0px 25px grey;
-    object-fit: cover;
-    object-position: center;
+#about_section img {
+  box-shadow: 0px 0px 25px grey;
+  object-fit: cover;
+  object-position: center;
 }
 
-#about_section h2{
-    font-family: 'Noto Sans', sans-serif;
-    font-size: calc(30px + (70 - 30) * ((100vw - 330px) / (2070 - 330)));
- }
+#about_section h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: calc(30px + (70 - 30) * ((100vw - 330px) / (2070 - 330)));
+}
 
- #about_section p{
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: calc(15px + (20 - 15) * ((100vw - 330px) / (2070 - 330)));
- }
-
+#about_section p {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: calc(15px + (20 - 15) * ((100vw - 330px) / (2070 - 330)));
+}
 
 /* font
 paragraph
@@ -105,18 +97,18 @@ min: 20px
 max: 30px
 */
 
- /* --------------Projects-------------- */
+/* --------------Projects-------------- */
 
-#projects-page h2{
+#projects-page h2 {
   font-size: calc(20px + (30 - 20) * ((100vw - 330px) / (2070 - 330)));
   font-weight: 700;
 }
 
-.project-item{
+.project-item {
   padding: 10px;
   background-color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 25px  lightgrey;
+  box-shadow: 0px 0px 25px lightgrey;
 }
 /* 
 
@@ -128,34 +120,23 @@ box shadow:
 
 */
 
-
-
-
-
-
-
-
-
-
-
 /* --------------Modal Window-------------- */
 
-#gallery-modal .modal-img{
+#gallery-modal .modal-img {
   width: 100%;
 }
 
-.modal-body p{
-  font-size:calc(12px + (20 - 12) * ((100vw - 330px) / (2070 - 330)));
+.modal-body p {
+  font-size: calc(12px + (20 - 12) * ((100vw - 330px) / (2070 - 330)));
 }
 
 .modal1 {
   height: auto;
   width: 100%;
   border-radius: 10px;
-  border-color: black;
 }
 .modal1:hover {
-	animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 @keyframes shadow-drop-center {
   0% {
@@ -166,21 +147,14 @@ box shadow:
   }
 }
 
-
-
-
-
-
-
 .modal2 {
   height: auto;
   width: 100%;
   border-radius: 10px;
-  border-color: black;
 }
 
 .modal2:hover {
-	animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 @keyframes shadow-drop-center {
   0% {
@@ -195,11 +169,10 @@ box shadow:
   height: auto;
   width: 100%;
   border-radius: 10px;
-  border-color: black;
 }
 
 .modal3:hover {
-	animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 @keyframes shadow-drop-center {
   0% {
@@ -214,11 +187,10 @@ box shadow:
   height: auto;
   width: 100%;
   border-radius: 10px;
-  border-color: black;
 }
 
 .modal4:hover {
-	animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 @keyframes shadow-drop-center {
   0% {
@@ -233,11 +205,10 @@ box shadow:
   height: auto;
   width: 100%;
   border-radius: 10px;
-  border-color: black;
 }
 
 .modal5:hover {
-	animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 @keyframes shadow-drop-center {
   0% {
@@ -248,60 +219,25 @@ box shadow:
   }
 }
 
-
-
-
-
-
-
 /* --------------Software-------------- */
 
-.software-list{
-    background-color: #BCBDC7;
+.software-list {
+  background-color: #bcbdc7;
 }
 
-.software-list img{
-    max-width: 45%;
-    height: auto;
-} 
+.software-list img {
+  max-width: 45%;
+  height: auto;
+}
 
+/* --------------CONTACT INFO / SOCIAL MEDIA-------------- */
 
+/* --------------COPYRIGHT INFO-------------- */
 
+.legal_footer {
+  background-color: #bcbdc7;
+}
 
-
-
-
-
-
- /* --------------CONTACT INFO / SOCIAL MEDIA-------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* --------------COPYRIGHT INFO-------------- */
-
-
-  .legal_footer{
-    background-color: #BCBDC7;
-  }
-
-  .legal_footer p{
-    font-size: calc(10px + (15 - 10) * ((100vw - 330px) / (2070 - 330)));
-
-  }
+.legal_footer p {
+  font-size: calc(10px + (15 - 10) * ((100vw - 330px) / (2070 - 330)));
+}
