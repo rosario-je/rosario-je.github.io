@@ -133,7 +133,7 @@ box shadow:
 .modal1 {
   height: auto;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .modal1:hover {
   animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -150,7 +150,7 @@ box shadow:
 .modal2 {
   height: auto;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .modal2:hover {
@@ -168,7 +168,7 @@ box shadow:
 .modal3 {
   height: auto;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .modal3:hover {
@@ -186,7 +186,7 @@ box shadow:
 .modal4 {
   height: auto;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .modal4:hover {
@@ -204,7 +204,7 @@ box shadow:
 .modal5 {
   height: auto;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .modal5:hover {
