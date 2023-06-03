@@ -29,43 +29,9 @@
 // ---------------------------MODAL WINDOW JS---------------------------
 
 // ---------------------------MODAL WINDOW #1---------------------------
-// document.addEventListener("DOMContentLoaded", function () {
-//   var modalImages1 = document.querySelectorAll(".modal1"); // Update the class name accordingly for the first modal
-//   var mainImage1 = document.querySelector(".modal-img.main-image"); // Update the class name accordingly for the first modal
-
-//   modalImages1.forEach(function (image) {
-//     image.addEventListener("click", function () {
-//       var clickedImageSrc = this.src;
-//       var mainImageSrc = mainImage1.src;
-//       var clickedImageIndex = Array.from(modalImages1).indexOf(this);
-
-//       this.src = mainImageSrc;
-//       mainImage1.src = clickedImageSrc;
-
-//       modalImages1[clickedImageIndex].src = clickedImageSrc;
-//     });
-//   });
-
-//   var modal1 = document.getElementById("project1-modal"); // Update the modal ID accordingly for the first modal
-//   modal1.addEventListener("hidden.bs.modal", function () {
-//     mainImage1.src = "/images/project 1/project 1.jpg"; // Update with the path to your main image for the first modal
-//   });
-  
 document.addEventListener("DOMContentLoaded", function () {
-  var modalImages1 = document.querySelectorAll(".modal1");
-  var mainImage1 = document.querySelector(".modal-img.main-image");
-  var modal1 = document.getElementById("project1-modal");
-
-  var hammer = new Hammer(modal1);
-
-  // Swipe left and right
-  hammer.on("swiperight", function () {
-    navigateModal("prev");
-  });
-
-  hammer.on("swipeleft", function () {
-    navigateModal("next");
-  });
+  var modalImages1 = document.querySelectorAll(".modal1"); // Update the class name accordingly for the first modal
+  var mainImage1 = document.querySelector(".modal-img.main-image"); // Update the class name accordingly for the first modal
 
   modalImages1.forEach(function (image) {
     image.addEventListener("click", function () {
@@ -80,30 +46,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+  var modal1 = document.getElementById("project1-modal"); // Update the modal ID accordingly for the first modal
   modal1.addEventListener("hidden.bs.modal", function () {
-    mainImage1.src = "/images/project 1/project 1.jpg";
+    mainImage1.src = "/images/project 1/project 1.jpg"; // Update with the path to your main image for the first modal
   });
-
-  function navigateModal(direction) {
-    var currentIndex = Array.from(modalImages1).indexOf(mainImage1);
-
-    if (direction === "prev") {
-      if (currentIndex > 0) {
-        currentIndex--;
-      } else {
-        currentIndex = modalImages1.length - 1;
-      }
-    } else if (direction === "next") {
-      if (currentIndex < modalImages1.length - 1) {
-        currentIndex++;
-      } else {
-        currentIndex = 0;
-      }
-    }
-
-    mainImage1.src = modalImages1[currentIndex].src;
-  }
-});
+  
 
 
 
@@ -204,7 +151,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+  // ---------------------------SOTWARE LOGOS JS---------------------------
 
+  
+  
 
 
 
