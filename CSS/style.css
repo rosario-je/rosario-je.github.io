@@ -57,10 +57,6 @@ body {
   font-weight: 700;
 }
 
-.animate__animated.animate__pulse {
-  --animate-duration: 2s;
-  --animation: bounce;
-}
 
 #about_section {
   width: 100%;
@@ -77,7 +73,17 @@ body {
   height: auto;
 }
 
+.navbar_logo{
+  width: 15%;
+  height: auto;
+}
+
 /* --------------About-------------- */
+
+#about_section{
+  padding-top: 80px;
+}
+
 
 #about_section img {
   box-shadow: 0px 0px 25px grey;
@@ -122,6 +128,17 @@ max: 30px
   border-radius: 5px;
   box-shadow: 0px 0px 25px lightgrey;
 }
+
+#projects-page h2{
+  padding-top: 150px;
+}
+
+.project-list{
+  padding-bottom: 150px;
+}
+
+
+
 /* 
 
 box shadow:
@@ -233,29 +250,41 @@ box shadow:
 
 /* --------------Software-------------- */
 
-.software-list {
+.software {
   background-color: #e0e0e0;
 }
 
-.software-list img {
-  max-width: 60%;
+.software img {
+  max-width: 45%;
   height: auto;
-
 }
 
+/* .software-list{
+  margin-left: 300px;
+  margin-right: 300px;
+} */
 
 
 
 
 /* --------------CONTACT INFO / SOCIAL MEDIA-------------- */
 
+#contact_page{
+  padding-top: 20px;
+}
+
+
+
 
 #contact_page h2{
     font-size: calc(15px + (25 - 15) * ((100vw - 330px) / (2070 - 330)));
-    font-weight: 700;
+    font-weight: 750;
 }
 
 #contact_page p {
   font-family: "Libre Franklin", sans-serif;
   font-size: calc(10px + (20 - 10) * ((100vw - 330px) / (2070 - 330)));
+}
+#contact_page a {
+  padding-left: 12px;
 }
