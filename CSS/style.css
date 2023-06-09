@@ -22,6 +22,18 @@ body {
 
 /* Global Atributes */
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+
+}
+
+
+
+
+
 .blur-background {
   filter: blur(20px); /* Adjust the blur amount as needed */
 }
@@ -222,128 +234,14 @@ box shadow:
 /* --------------Software-------------- */
 
 .software-list {
-  background-color: #bcbdc7;
+  background-color: #e0e0e0;
 }
 
-/* .software-list img {
-  max-width: 100%;
+.software-list img {
+  max-width: 60%;
   height: auto;
-} */
 
-  .homeloadergrey {
-    position: fixed;
-    z-index: 5000;
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    background-color: #323436;
-  }
-  
-  .homeloaderlightgreen {
-    position: fixed;
-    z-index: 5001;
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    background-color: #07da8a;
-  }
-  
-  .homeloaderblack {
-    position: fixed;
-    z-index: 5002;
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    background-color: #121212;
-    display: flex;
-  }
-  
-  .text {
-    position: relative;
-    color: white;
-    margin: 0;
-    user-select: none;
-  }
-  .target,
-  .cursor {
-    /* border-radius: 50px; */
-    width: 0px;
-    height: 0px;
-    /* border: solid 1px #fff;
-    -webkit-box-sizing: border-box; */
-    /* box-sizing: border-box; */
-    /* position: absolute; */
-    /* top: 50%;
-    left: 10%; */
-    /* -webkit-transform: translate(-50%, -50%) rotate(0deg);
-    transform: translate(-50%, -50%) rotate(0deg); */
-  }
-  
-  /* Green Tri Small */
-  .target {
-    border-radius: 0;
-    position:relative;
-    width: 100px;
-    height: 100px;
-    /* border: solid 1px #07da8a; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 50px;
-  }
-  
-  .software-list {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .software-list .row {
-    margin: 0;
-    justify-content: center;
-  }
-  
-  .software-list .target {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-    flex-basis: 0;
-    min-width: 50px; /* Adjust the minimum width as needed */
-  }
-  
-  .software-list .target img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -351,12 +249,13 @@ box shadow:
 
 /* --------------CONTACT INFO / SOCIAL MEDIA-------------- */
 
-/* --------------COPYRIGHT INFO-------------- */
 
-.legal_footer {
-  background-color: #bcbdc7;
+#contact_page h2{
+    font-size: calc(15px + (25 - 15) * ((100vw - 330px) / (2070 - 330)));
+    font-weight: 700;
 }
 
-.legal_footer p {
-  font-size: calc(10px + (15 - 10) * ((100vw - 330px) / (2070 - 330)));
+#contact_page p {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: calc(10px + (20 - 10) * ((100vw - 330px) / (2070 - 330)));
 }
