@@ -47,11 +47,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Update the description text based on the clicked image
       var descriptions = [
-        "Main Project description goes here",
+        "The Mamaawi Community Centre is intended to be a welcoming destination for locals, tourists and tenants alike, as they are immersed in the various activities and shops it homes. Through a beautifully intri-cate display of transformational mimicry, this concept brings new life and greater purpose to the existing heritage building. Conceptually, this build is derived from the rich history of Canada's Indigenous peoples and aims to pay homage to this respect. By designing this building toencourage its visitors throughout the varying stages of the circle of life, this concept emulates the core belief systems held in place by the first nations of this land. While utilizing the engaging effect of such cultural focal points and incorporating aspects of the renowned biography of the original Alton Mill, this build aims to unite these two historic values.",
+
         "Second image description",
+
         "Third image description",
+
         "Fourth image description",
+
         "Fifth image description",
+        
         "6th image description",
       ];
 
