@@ -270,12 +270,17 @@ box shadow:
   color: white;
 }
 
-#contact_page p {
+#contact_page h6 {
   font-family: "Libre Franklin", sans-serif;
-  font-size: calc(10px + (20 - 10) * ((100vw - 330px) / (2070 - 330)));
+  font-size: calc(8px + (15 - 8) * ((100vw - 330px) / (2070 - 330)));
   color: white;
 }
 #contact_page a {
-  padding-left: 12px;
+  color: white;
+}
+
+#contact_page p {
+  font-size: calc(10px + (15 - 10) * ((100vw - 330px) / (2070 - 330)));
+  font-weight: 750;
   color: white;
 }
