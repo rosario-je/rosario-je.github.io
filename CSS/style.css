@@ -28,6 +28,10 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
 
 .blur-background {
   filter: blur(20px); /* Adjust the blur amount as needed */
