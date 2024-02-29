@@ -1,4 +1,3 @@
-```markdown
 # Personal Architectural Portfolio Website README
 
 Welcome to my personal architectural portfolio website! This repository contains the source code and assets for my portfolio website, showcasing my architectural projects, designs, and achievements.
@@ -48,4 +47,3 @@ To view the portfolio website:
 
 
 Thank you for visiting my portfolio website repository!
-```
