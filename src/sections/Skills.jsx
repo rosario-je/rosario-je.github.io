@@ -5,19 +5,12 @@ import SectionHeader from '../components/SectionHeader'
 // Generate random but consistent track values (runs once at import time)
 const randomBetween = (min, max) => Math.random() * (max - min) + min
 
-const DIAGONAL_TRACKS = Array.from({ length: 45 }, (_, i) => {
-  // Each track gets its own independent random values
-  const r1 = Math.random()
-  const r2 = Math.random()
-  const r3 = Math.random()
-  return {
-    top: `${-40 + i * 4}%`,
-    duration: randomBetween(18, 42),
-    reverse: r1 > 0.5,
-    opacity: randomBetween(0.03, 0.09),
-    speed: randomBetween(30, 70),
-  }
-})
+const DIAGONAL_TRACKS = Array.from({ length: 20 }, (_, i) => ({
+  top: `${-30 + i * 8}%`,
+  reverse: Math.random() > 0.5,
+  opacity: randomBetween(0.03, 0.09),
+  speed: randomBetween(30, 70),
+}))
 
 const Chip = ({ item }) => (
   <span className="marquee-chip">

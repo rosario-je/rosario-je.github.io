@@ -4,19 +4,27 @@ const useScrollSpy = (sectionIds = []) => {
   const [activeId, setActiveId] = useState(sectionIds[0] ?? '')
 
   useEffect(() => {
+    let ticking = false
+
     const handleScroll = () => {
-      let currentId = sectionIds[0]
+      if (ticking) return
+      ticking = true
 
-      for (const id of sectionIds) {
-        const el = document.getElementById(id)
-        if (!el) continue
-        // If the section top is above 40% of the viewport, it's the active one
-        if (el.getBoundingClientRect().top <= window.innerHeight * 0.4) {
-          currentId = id
+      requestAnimationFrame(() => {
+        let currentId = sectionIds[0]
+        const threshold = window.innerHeight * 0.4
+
+        for (const id of sectionIds) {
+          const el = document.getElementById(id)
+          if (!el) continue
+          if (el.getBoundingClientRect().top <= threshold) {
+            currentId = id
+          }
         }
-      }
 
-      setActiveId(currentId)
+        setActiveId(currentId)
+        ticking = false
+      })
     }
 
     window.addEventListener('scroll', handleScroll, { passive: true })
