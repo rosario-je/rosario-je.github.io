@@ -25,12 +25,24 @@ export default {
       boxShadow: {
         soft: '0 10px 30px rgba(15, 23, 42, 0.08)',
         glow: '0 12px 40px rgba(59, 130, 246, 0.3)',
+        glass: '0 8px 32px rgba(0, 0, 0, 0.06)',
+        'glass-hover': '0 16px 48px rgba(0, 0, 0, 0.1)',
+        'glass-dark': '0 8px 32px rgba(0, 0, 0, 0.25)',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       backdropBlur: {
         xs: '2px',
+        glass: '24px',
+        'glass-sm': '16px',
+      },
+      borderRadius: {
+        glass: '1.5rem',
+        'glass-lg': '2rem',
+      },
+      transitionTimingFunction: {
+        spring: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
       },
     },
   },
