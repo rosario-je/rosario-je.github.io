@@ -216,7 +216,7 @@
   /* ── Layout ──────────────────────────────────────────── */
 
   .section-spacing {
-    scroll-margin-top: 7rem;
+    scroll-margin-top: 0;
     padding: 4rem 0;
   }
 
