@@ -3,7 +3,6 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { profile } from './data/profile'
 import useScrollSpy from './hooks/useScrollSpy'
-import CursorGlow from './components/CursorGlow'
 import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
 import ProjectShowcase from './pages/ProjectShowcase'
@@ -14,7 +13,6 @@ const App = () => {
 
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-blue-50/40 via-white to-purple-50/30 dark:from-ink-950 dark:via-ink-950 dark:to-[#0d1a2d]">
-      <CursorGlow />
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 site-grid opacity-40" />
         <div className="absolute -left-20 top-[-10rem] h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-blue-400/25 to-cyan-300/15 blur-[100px]" />
